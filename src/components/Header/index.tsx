@@ -1,6 +1,4 @@
 import { Container, Content } from './styles';
-import { useState } from 'react';
-import Modal from 'react-modal';
 import logoImg from '../../assets/logo.svg';
 
 interface HeaderProps {
@@ -8,8 +6,6 @@ interface HeaderProps {
 }
 
 export function Header({ onOpenNewTransactionModal }: HeaderProps) {
-
-
   return (
     <Container>
       <Content>
